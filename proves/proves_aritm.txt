@@ -1,0 +1,20 @@
+x := 10
+y := 2.5
+z := -3
+w := 0
+
+// Operacions barrejades
+a := x + y       // 12.5
+b := z - y       // -5.5
+c := x * z       // -30
+d := y / 2       // 1.25
+e := x - 5 + y   // 7.5
+f := x / y * z   // -12
+g := w + x - y   // 7.5
+h := y * z / x   // -0.75
+
+// Casos especials
+i := x / 0       // Divisió entre zero
+j := y / 0       // Divisió entre zero (real)
+k := w / w       // Divisió de zero entre zero
+

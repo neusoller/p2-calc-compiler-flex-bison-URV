@@ -1,0 +1,93 @@
+Línia 2: Assignació aritmètica -> x := 10
+Línia 4: Assignació aritmètica -> y := 2.5
+Línia 6: Assignació aritmètica -> z := -3
+Línia 8: Assignació aritmètica -> w := 0
+Línia 13: Assignació aritmètica -> a := $t3
+Línia 16: Assignació aritmètica -> b := $t5
+Línia 19: Assignació aritmètica -> c := $t6
+Línia 22: Assignació aritmètica -> d := $t8
+Línia 25: Assignació aritmètica -> e := $t11
+Línia 28: Assignació aritmètica -> f := $t15
+Línia 31: Assignació aritmètica -> g := $t18
+Línia 34: Assignació aritmètica -> h := $t22
+ERROR: Division by zero a la línia 39
+SEMANTIC ERROR: Assignació no vàlida a la línia 39
+Línia 39	SEMANTIC ERRORLínia 42: Assignació aritmètica -> j := SEMANTIC ERROR: Division by zero
+ERROR: Division by zero a la línia 44
+SEMANTIC ERROR: Assignació no vàlida a la línia 44
+Línia 44	SEMANTIC ERRORMostrant la taula de símbols personalitzada:
+Variable x:
+	->Valor: 10
+	->Tipus: INTEGER
+Variable y:
+	->Valor: 2.5
+	->Tipus: FLOAT
+Variable z:
+	->Valor: -3
+	->Tipus: INTEGER
+Variable w:
+	->Valor: 0
+	->Tipus: INTEGER
+Variable $t3:
+	->Valor: 12.50
+	->Tipus: FLOAT
+Variable a:
+	->Valor: $t3
+	->Tipus: FLOAT
+Variable $t5:
+	->Valor: -5.50
+	->Tipus: FLOAT
+Variable b:
+	->Valor: $t5
+	->Tipus: FLOAT
+Variable $t6:
+	->Valor: -30
+	->Tipus: INTEGER
+Variable c:
+	->Valor: $t6
+	->Tipus: INTEGER
+Variable $t8:
+	->Valor: 1.25
+	->Tipus: FLOAT
+Variable d:
+	->Valor: $t8
+	->Tipus: FLOAT
+Variable $t9:
+	->Valor: 5
+	->Tipus: INTEGER
+Variable $t11:
+	->Valor: 7.50
+	->Tipus: FLOAT
+Variable e:
+	->Valor: $t11
+	->Tipus: FLOAT
+Variable $t13:
+	->Valor: 4.00
+	->Tipus: FLOAT
+Variable $t15:
+	->Valor: -12.00
+	->Tipus: FLOAT
+Variable f:
+	->Valor: $t15
+	->Tipus: FLOAT
+Variable $t16:
+	->Valor: 10
+	->Tipus: INTEGER
+Variable $t18:
+	->Valor: 7.50
+	->Tipus: FLOAT
+Variable g:
+	->Valor: $t18
+	->Tipus: FLOAT
+Variable $t20:
+	->Valor: -7.50
+	->Tipus: FLOAT
+Variable $t22:
+	->Valor: -0.75
+	->Tipus: FLOAT
+Variable h:
+	->Valor: $t22
+	->Tipus: FLOAT
+Variable j:
+	->Valor: SEMANTIC ERROR: Division by zero
+	->Tipus: FLOAT

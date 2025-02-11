@@ -1,0 +1,3 @@
+x := 2 ** 3 ** 2 // Esperat: x = 8
+y := x ** 2 // ESperat: y = 64
+z := 2 ** 0 // Esperat: z = 1

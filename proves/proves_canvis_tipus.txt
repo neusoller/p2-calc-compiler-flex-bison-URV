@@ -1,0 +1,4 @@
+x := 5 + 3.2;
+y := 4.5 * 2;
+z := (int) 3.14;  // conversió explícita
+
